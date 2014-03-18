@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Index</title>
+        <script src="jquery-2.0.3.js"></script>
+        <script src="script.js"></script>
+        <style>
+            tr:nth-child(even){
+                background-color: #eee;
+            }
+            tr:nth-child(odd){
+                background-color: #ddd;
+            }
+            .highlight{
+                color: red;
+            }            
+        </style>
+    </head>
+    <body>
+        <div id="toevoegenDiv">
+            <label for="naam">Naam</label>
+            <input id="naam" type="text">
+            <br>
+            <label for="leeftijd">Leeftijd</label>
+            <input id="leeftijd" type="number">
+            <br>
+            <input type="button" value="Toevoegen" id="toevoegenButton">
+        </div>
+        <table id="personenTabel" border="1">
+            <tr>
+                <td>Jos</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>38</td>
+            </tr>
+        </table>
+        <hr>
+        <input type="button" class="kopieerButton" value="Kopieer">
+        <p id="kopieerParagraaf_0">Ik wordt gekopieerd.</p>
+
+    </body>
+</html>

@@ -1,0 +1,42 @@
+input{
+    cursor: pointer;
+}
+
+#leftSide, #rightSide{
+    float: left;
+    width: 300px;
+    margin: 20px;
+    border: 1px solid blue;
+    height: 600px;
+    border-radius: 6px;
+    padding:  10px;
+}
+
+#rightSide{
+    overflow: auto;
+}
+
+#clearDiv{
+    margin: 20px;
+}
+
+#clearButton{
+    width: 100px;
+}
+
+.paragraphArea{
+    padding: 5px;
+    border: 0.8px dashed darkblue;
+    cursor:  pointer;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+.danger{
+    background-color: red;
+    color: white;
+}
+
+
